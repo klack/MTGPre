@@ -9,4 +9,4 @@
 * Open Windows Command Prompt in Administrator Mode
 * Change directory to the MTGPre folder
 * `mklink /D "%USERPROFILE%\Documents\My Games\Tabletop Simulator\Saves\MTGPre" ".\tables"`
-
+* If you get a "File not found" error, you may have moved your My Documents folder or use OneDrive.  Update the above command with the full path ending in
