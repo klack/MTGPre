@@ -1,7 +1,7 @@
 {
   "SaveName": "Draw Table",
-  "EpochTime": 1762732409,
-  "Date": "11/9/2025 4:53:29 PM",
+  "EpochTime": 1762744907,
+  "Date": "11/9/2025 8:21:47 PM",
   "VersionNumber": "v13.3",
   "GameMode": "MTGPre",
   "GameType": "",
@@ -601,7 +601,7 @@
         "posX": -26.7362041,
         "posY": 2.58620381,
         "posZ": 16.797493,
-        "rotX": 39.7988319,
+        "rotX": 39.7988625,
         "rotY": 179.991074,
         "rotZ": -0.00458737649,
         "scaleX": 1.0,
@@ -741,9 +741,9 @@
         "posX": -24.0314751,
         "posY": 2.58157158,
         "posZ": 16.7836781,
-        "rotX": 39.63706,
+        "rotX": 39.6370621,
         "rotY": 179.992538,
-        "rotZ": -0.00374310627,
+        "rotZ": -0.0037431072,
         "scaleX": 1.0,
         "scaleY": 1.0,
         "scaleZ": 1.0
@@ -1023,7 +1023,7 @@
         "posZ": 16.7231312,
         "rotX": 38.9651947,
         "rotY": 180.061447,
-        "rotZ": -0.005564597,
+        "rotZ": -0.005564596,
         "scaleX": 1.0,
         "scaleY": 1.0,
         "scaleZ": 1.0
@@ -1161,9 +1161,9 @@
         "posX": -13.4785881,
         "posY": 2.55780053,
         "posZ": 16.7112865,
-        "rotX": 38.8153343,
+        "rotX": 38.8153419,
         "rotY": 180.00589,
-        "rotZ": 0.004208231,
+        "rotZ": 0.004208232,
         "scaleX": 1.0,
         "scaleY": 1.0,
         "scaleZ": 1.0
@@ -1301,9 +1301,9 @@
         "posX": -16.1084843,
         "posY": 2.55934882,
         "posZ": 16.71229,
-        "rotX": 38.8692741,
+        "rotX": 38.8692856,
         "rotY": 180.178345,
-        "rotZ": 0.005279956,
+        "rotZ": 0.00527996151,
         "scaleX": 1.0,
         "scaleY": 1.0,
         "scaleZ": 1.0
@@ -1431,6 +1431,61 @@
           "LuaScript": "",
           "LuaScriptState": "",
           "XmlUI": ""
+        }
+      ]
+    },
+    {
+      "GUID": "6ed442",
+      "Name": "BlockSquare",
+      "Transform": {
+        "posX": -25.3207169,
+        "posY": 1.06,
+        "posZ": 11.8254166,
+        "rotX": -2.29220856E-08,
+        "rotY": 180.0,
+        "rotZ": -3.321502E-07,
+        "scaleX": 2.3,
+        "scaleY": 0.2,
+        "scaleZ": 3.2
+      },
+      "Nickname": "Deck Lister",
+      "Description": "[b]Instructions to re-import your deck:[/b]\n1. Place your deck here\n2. Press the button below\n3. Type [b]scryfall deck[/b] into chat and the deck will spawn at your mouse cursor",
+      "GMNotes": "",
+      "Memo": "",
+      "AltLookAngle": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "ColorDiffuse": {
+        "r": 0.117600746,
+        "g": 0.117600746,
+        "b": 0.196034521
+      },
+      "LayoutGroupSortIndex": 0,
+      "Value": 0,
+      "Locked": false,
+      "Grid": true,
+      "Snap": true,
+      "IgnoreFoW": false,
+      "MeasureMovement": false,
+      "DragSelectable": true,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "GridProjection": false,
+      "HideWhenFaceDown": false,
+      "Hands": false,
+      "LuaScript": "--By Amuzet /adapted by π\r\nmod_name='Deck Lister'\r\nversion='π'\r\n\r\nfunction onLoad()\r\n  local txt = '[b]Instructions to re-import your deck:[/b]\\n'..\r\n               '1. Place your deck here\\n'..\r\n               '2. Press the button below\\n'..\r\n               '3. Type [b]scryfall deck[/b] into chat and the deck will spawn at your mouse cursor'\r\n\r\n  self.setDescription(txt)\r\n  self.setName(mod_name)\r\n\r\n  sScale=self.getScale()\r\n\r\n  bpars={ click_function='click',\r\n          function_owner=self,\r\n          label='Place Deck',\r\n          position={0,0.5,0.65},\r\n          scale={0.5/sScale[1],0.5/sScale[2],0.5/sScale[3]},\r\n          color={0.1,0.1,0.1},\r\n          font_color={1,1,1},\r\n          width=3500,\r\n          height=750,\r\n          font_size=500,\r\n          tooltip='' }\r\n  self.createButton(bpars)\r\n\r\n  bpars={ click_function='click',\r\n          function_owner=self,\r\n          label='Deck\\nLister',\r\n          position={0,0.5,0},\r\n          scale={0.5/sScale[1],0.5/sScale[2],0.5/sScale[3]},\r\n          color={0.1,0.1,0.1,1},\r\n          font_color={1,1,1,1},\r\n          width=0,\r\n          height=0,\r\n          font_size=600,\r\n          tooltip='' }\r\n  self.createButton(bpars)\r\n\r\nend\r\n\r\nfunction lister(obj,pColor)\r\n  local pc = pColor\r\n\r\n  if obj and obj.type=='Deck' then\r\n\r\n    local list = ''\r\n    for _,v in pairs(obj.getObjects())do\r\n      local name = v.nickname:gsub('[\\n].*','')\r\n      list = list..'1 '..name..'\\n'\r\n    end\r\n\r\n    -- remove any existing tabs corresponding to player color\r\n    local proceed=false\r\n    local tabs = getNotebookTabs()\r\n    for i,tab in pairs(tabs) do\r\n      if tab.color==pColor then\r\n        removeNotebookTab(tab.index)\r\n      end\r\n      if i==#tabs then\r\n        proceed=true\r\n      end\r\n    end\r\n\r\n    -- once all existing player notebook tabs are removed, create a new one, containing the deck list\r\n    -- (this way both Amuzet's and Omes importers direct to this notebook tab)\r\n    Wait.condition(function()\r\n      Wait.time(function()\r\n        addNotebookTab({title=pColor , body=list , color=pColor})\r\n        Player[pc].broadcast('Deck list in Notebook Tab: '..pColor..'\\n'..\r\n                             'Type [b][i]scryfall deck[/i][/b] into chat to re-import deck')\r\n      end,0.2)\r\n    end,function() return proceed end)\r\n\r\n  end\r\nend\r\n\r\nfunction click(o,pc,a)\r\n  if getObjectFromGUID(self.getGMNotes())~=nil then\r\n    lister(getObjectFromGUID(self.getGMNotes()),pc)\r\n  end\r\nend\r\n\r\nfunction onCollisionEnter(info)\r\n  if info and info.collision_object.type=='Deck' then\r\n    local g = info.collision_object.getGUID()\r\n    self.setGMNotes(g)\r\n    self.editButton({\r\n      index=0,\r\n      label='Get Card List'\r\n    })\r\n  end\r\nend\r\n\r\nfunction onCollisionExit(info)\r\n  if info and info.collision_object.type=='Deck' then\r\n    self.setGMNotes('')\r\n    self.editButton({\r\n      index=0,\r\n      label='Place Deck'\r\n    })\r\n  end\r\nend",
+      "LuaScriptState": "",
+      "XmlUI": "",
+      "AttachedSnapPoints": [
+        {
+          "Position": {
+            "x": 2.32195774E-07,
+            "y": 0.5000001,
+            "z": 1.25119172E-07
+          }
         }
       ]
     }
