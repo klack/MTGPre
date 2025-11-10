@@ -7,5 +7,6 @@
 
 ### Create a symlink from the Tabletop save game folder to the project table folder
 * Open Windows Command Prompt in Administrator Mode
-* Change directory to the project folder
+* Change directory to the MTGPre folder
 * `mklink /D "%USERPROFILE%\Documents\My Games\Tabletop Simulator\Saves\MTGPre" ".\tables"`
+
