@@ -1,4 +1,8 @@
 ﻿# Development Environment
+### Clone project
+* Install git and git bash
+* Open git bash
+* `git clone git@github.com:klack/MTGPre.git`
 
 ### Create a symlink from the Tabletop save game folder to the project table folder
 * Open Windows Command Prompt in Administrator Mode
