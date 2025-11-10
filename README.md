@@ -9,6 +9,5 @@
 
 ### Create a symlink from the Tabletop save game folder to the project table folder
 * Open Windows Command Prompt in Administrator Mode
-* Change directory to the MTGPre folder
-* `mklink /D "%USERPROFILE%\Documents\My Games\Tabletop Simulator\Saves\MTGPre" ".\tables"`
-* If you get a "File not found" error, you may have moved your My Documents folder or use OneDrive.  Update the above command with your new full path ending in `\My Games\Tabletop Simulator\Saves\MTGPre`
+* Update the paths below with your own and run
+* `mklink /D "C:\Users\klack\Documents\My Games\Tabletop Simulator\Saves\MTGPre" "C:\projects\MTGPre\tables"`
