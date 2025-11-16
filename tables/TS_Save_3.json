@@ -1,16 +1,16 @@
 {
   "SaveName": "Avatar",
-  "EpochTime": 1763256863,
-  "Date": "11/15/2025 6:34:23 PM",
+  "EpochTime": 1763251377,
+  "Date": "11/15/2025 5:02:57 PM",
   "VersionNumber": "v13.3",
-  "GameMode": "victorian_assets",
+  "GameMode": "MTGPre",
   "GameType": "",
   "GameComplexity": "",
   "Tags": [],
   "Gravity": 0.5,
   "PlayArea": 0.5,
-  "Table": "Table_None",
-  "Sky": "Sky_Regal",
+  "Table": "Table_RPG",
+  "Sky": "Sky_Field",
   "Note": "",
   "TabStates": {
     "0": {
@@ -24,16 +24,16 @@
       },
       "id": 0
     },
-    "1": {
+    "12": {
       "title": "White",
-      "body": "",
+      "body": "1 Aang, the Last Airbender\n1 Momo, Friendly Flier\n1 South Pole Voyager\n1 Earth Kingdom Jailer\n1 Avatar Enthusiasts\n1 Curious Farm Animals\n1 Fancy Footwork\n1 Vengeful Villagers\n1 Team Avatar\n1 Water Tribe Captain\n1 Sandbenders' Storm\n1 Rabaroo Troop\n1 Wandering Musicians\n1 Razor Rings\n1 Misty Palms Oasis\n",
       "color": "White",
       "visibleColor": {
         "r": 1.0,
         "g": 1.0,
         "b": 1.0
       },
-      "id": 1
+      "id": 12
     },
     "2": {
       "title": "Brown",
@@ -168,13 +168,13 @@
     }
   },
   "Lighting": {
-    "LightIntensity": 0.54,
+    "LightIntensity": 0.282664567,
     "LightColor": {
       "r": 1.0,
       "g": 0.9804,
       "b": 0.8902
     },
-    "AmbientIntensity": 1.3,
+    "AmbientIntensity": 1.109334,
     "AmbientType": 0,
     "AmbientSkyColor": {
       "r": 0.5,
@@ -193,7 +193,8 @@
     },
     "ReflectionIntensity": 1.0,
     "LutIndex": 0,
-    "LutContribution": 1.0
+    "LutContribution": 1.0,
+    "LutURL": ""
   },
   "Hands": {
     "Enable": true,
@@ -213,54 +214,24 @@
     "PassTurns": true,
     "TurnColor": ""
   },
-  "CameraStates": [
-    null,
-    {
-      "Position": {
-        "x": 0.0,
-        "y": -2.5,
-        "z": 0.0
-      },
-      "Rotation": {
-        "x": 90.0,
-        "y": -3.733867E-05,
-        "z": 0.0
-      },
-      "Distance": 45.7827339,
-      "Zoomed": false,
-      "AbsolutePosition": {
-        "x": -4.12215322E-23,
-        "y": 43.2827377,
-        "z": -2.72885927E-06
-      }
-    },
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null
-  ],
   "DecalPallet": [],
   "LuaScript": "--[[ Lua code. See documentation: https://api.tabletopsimulator.com/ --]]\n\n--[[ The onLoad event is called after the game save finishes loading. --]]\nfunction onLoad()\n    --[[ print('onLoad!') --]]\nend\n\n--[[ The onUpdate event is called once per frame. --]]\nfunction onUpdate()\n    --[[ print('onUpdate loop!') --]]\nend",
   "LuaScriptState": "",
   "XmlUI": "<!-- Xml UI. See documentation: https://api.tabletopsimulator.com/ui/introUI/ -->",
   "ObjectStates": [
     {
-      "GUID": "366454",
+      "GUID": "f6bc1d",
       "Name": "HandTrigger",
       "Transform": {
-        "posX": -23.6700039,
-        "posY": 3.34820342,
-        "posZ": 34.43159,
+        "posX": -15.1107731,
+        "posY": 4.81034231,
+        "posZ": -20.1076221,
         "rotX": 0.0,
-        "rotY": 180.0,
+        "rotY": 0.0,
         "rotZ": 0.0,
-        "scaleX": 15.3268747,
-        "scaleY": 11.8970528,
-        "scaleZ": 6.35014534
+        "scaleX": 11.7719851,
+        "scaleY": 9.174497,
+        "scaleZ": 4.871238
       },
       "Nickname": "",
       "Description": "",
@@ -271,9 +242,9 @@
         "z": 0.0
       },
       "ColorDiffuse": {
-        "r": 0.191999972,
-        "g": 0.701,
-        "b": 0.167999953,
+        "r": 0.856,
+        "g": 0.09999997,
+        "b": 0.09399996,
         "a": 0.0
       },
       "LayoutGroupSortIndex": 0,
@@ -290,24 +261,24 @@
       "GridProjection": false,
       "HideWhenFaceDown": false,
       "Hands": false,
-      "FogColor": "Green",
+      "FogColor": "Red",
       "LuaScript": "",
       "LuaScriptState": "",
       "XmlUI": ""
     },
     {
-      "GUID": "b633c6",
+      "GUID": "6d7c82",
       "Name": "HandTrigger",
       "Transform": {
-        "posX": 12.2746925,
-        "posY": 3.34820342,
-        "posZ": -34.2558136,
+        "posX": -30.2150211,
+        "posY": 4.81034231,
+        "posZ": 10.17524,
         "rotX": 0.0,
-        "rotY": 0.0,
+        "rotY": 90.0,
         "rotZ": 0.0,
-        "scaleX": 15.3268747,
-        "scaleY": 11.8970547,
-        "scaleZ": 6.705048
+        "scaleX": 11.6554289,
+        "scaleY": 9.174497,
+        "scaleZ": 4.91995144
       },
       "Nickname": "",
       "Description": "",
@@ -318,8 +289,102 @@
         "z": 0.0
       },
       "ColorDiffuse": {
-        "r": 1.0,
-        "g": 1.0,
+        "r": 0.905,
+        "g": 0.898,
+        "b": 0.171999961,
+        "a": 0.0
+      },
+      "LayoutGroupSortIndex": 0,
+      "Value": 0,
+      "Locked": true,
+      "Grid": false,
+      "Snap": true,
+      "IgnoreFoW": false,
+      "MeasureMovement": false,
+      "DragSelectable": true,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "GridProjection": false,
+      "HideWhenFaceDown": false,
+      "Hands": false,
+      "FogColor": "Yellow",
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "XmlUI": ""
+    },
+    {
+      "GUID": "aac80b",
+      "Name": "HandTrigger",
+      "Transform": {
+        "posX": 30.2511711,
+        "posY": 4.81034231,
+        "posZ": 9.59069252,
+        "rotX": 0.0,
+        "rotY": 270.0,
+        "rotZ": 0.0,
+        "scaleX": 11.6554213,
+        "scaleY": 9.174497,
+        "scaleZ": 4.91995144
+      },
+      "Nickname": "",
+      "Description": "",
+      "GMNotes": "",
+      "AltLookAngle": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "ColorDiffuse": {
+        "r": 0.627,
+        "g": 0.124999978,
+        "b": 0.941,
+        "a": 0.0
+      },
+      "LayoutGroupSortIndex": 0,
+      "Value": 0,
+      "Locked": true,
+      "Grid": false,
+      "Snap": true,
+      "IgnoreFoW": false,
+      "MeasureMovement": false,
+      "DragSelectable": true,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "GridProjection": false,
+      "HideWhenFaceDown": false,
+      "Hands": false,
+      "FogColor": "Purple",
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "XmlUI": ""
+    },
+    {
+      "GUID": "fe643d",
+      "Name": "HandTrigger",
+      "Transform": {
+        "posX": 15.4749184,
+        "posY": 4.81034231,
+        "posZ": 19.8365288,
+        "rotX": 0.0,
+        "rotY": 179.8,
+        "rotZ": 0.0,
+        "scaleX": 11.7719746,
+        "scaleY": 9.174497,
+        "scaleZ": 4.87124
+      },
+      "Nickname": "",
+      "Description": "",
+      "GMNotes": "",
+      "AltLookAngle": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "ColorDiffuse": {
+        "r": 0.117999978,
+        "g": 0.53,
         "b": 1.0,
         "a": 0.0
       },
@@ -337,215 +402,7 @@
       "GridProjection": false,
       "HideWhenFaceDown": false,
       "Hands": false,
-      "FogColor": "White",
-      "LuaScript": "",
-      "LuaScriptState": "",
-      "XmlUI": ""
-    },
-    {
-      "GUID": "eb479b",
-      "Name": "Custom_Assetbundle",
-      "Transform": {
-        "posX": 0.0,
-        "posY": -30.97243,
-        "posZ": 0.0,
-        "rotX": 0.0,
-        "rotY": 0.0,
-        "rotZ": 0.0,
-        "scaleX": 1.0,
-        "scaleY": 1.0,
-        "scaleZ": 1.0
-      },
-      "Nickname": "",
-      "Description": "",
-      "GMNotes": "",
-      "AltLookAngle": {
-        "x": 0.0,
-        "y": 0.0,
-        "z": 0.0
-      },
-      "ColorDiffuse": {
-        "r": 0.57547164,
-        "g": 0.5564703,
-        "b": 0.5374688
-      },
-      "LayoutGroupSortIndex": 0,
-      "Value": 0,
-      "Locked": true,
-      "Grid": true,
-      "Snap": true,
-      "IgnoreFoW": false,
-      "MeasureMovement": false,
-      "DragSelectable": true,
-      "Autoraise": true,
-      "Sticky": true,
-      "Tooltip": true,
-      "GridProjection": false,
-      "HideWhenFaceDown": false,
-      "Hands": false,
-      "CustomAssetbundle": {
-        "AssetbundleURL": "http://chry.me/tts/old_victorian_assets/victorian_env.unity3d",
-        "AssetbundleSecondaryURL": "",
-        "MaterialIndex": 0,
-        "TypeIndex": 4,
-        "LoopingEffectIndex": 0
-      },
-      "LuaScript": "",
-      "LuaScriptState": "",
-      "XmlUI": ""
-    },
-    {
-      "GUID": "37a2bc",
-      "Name": "Custom_Assetbundle",
-      "Transform": {
-        "posX": 0.000160545125,
-        "posY": -30.992054,
-        "posZ": -0.123811729,
-        "rotX": 0.0,
-        "rotY": 0.0,
-        "rotZ": 0.0,
-        "scaleX": 10.0,
-        "scaleY": 10.0,
-        "scaleZ": 10.0
-      },
-      "Nickname": "",
-      "Description": "",
-      "GMNotes": "",
-      "AltLookAngle": {
-        "x": 0.0,
-        "y": 0.0,
-        "z": 0.0
-      },
-      "ColorDiffuse": {
-        "r": 1.0,
-        "g": 1.0,
-        "b": 1.0
-      },
-      "LayoutGroupSortIndex": 0,
-      "Value": 0,
-      "Locked": true,
-      "Grid": true,
-      "Snap": true,
-      "IgnoreFoW": false,
-      "MeasureMovement": false,
-      "DragSelectable": false,
-      "Autoraise": true,
-      "Sticky": true,
-      "Tooltip": true,
-      "GridProjection": false,
-      "HideWhenFaceDown": false,
-      "Hands": false,
-      "CustomAssetbundle": {
-        "AssetbundleURL": "http://chry.me/tts/old_victorian_assets/victorian_table_new.unity3d",
-        "AssetbundleSecondaryURL": "",
-        "MaterialIndex": 0,
-        "TypeIndex": 0,
-        "LoopingEffectIndex": 0
-      },
-      "LuaScript": "",
-      "LuaScriptState": "",
-      "XmlUI": ""
-    },
-    {
-      "GUID": "a7a029",
-      "Name": "Custom_Assetbundle",
-      "Transform": {
-        "posX": -15.5599689,
-        "posY": -30.198452,
-        "posZ": 37.9688568,
-        "rotX": 2.45775163E-06,
-        "rotY": 164.988083,
-        "rotZ": 1.86534853E-05,
-        "scaleX": 20.0,
-        "scaleY": 20.0,
-        "scaleZ": 20.0
-      },
-      "Nickname": "",
-      "Description": "",
-      "GMNotes": "",
-      "AltLookAngle": {
-        "x": 0.0,
-        "y": 0.0,
-        "z": 0.0
-      },
-      "ColorDiffuse": {
-        "r": 1.0,
-        "g": 1.0,
-        "b": 1.0
-      },
-      "LayoutGroupSortIndex": 0,
-      "Value": 0,
-      "Locked": true,
-      "Grid": true,
-      "Snap": true,
-      "IgnoreFoW": false,
-      "MeasureMovement": false,
-      "DragSelectable": true,
-      "Autoraise": true,
-      "Sticky": true,
-      "Tooltip": true,
-      "GridProjection": false,
-      "HideWhenFaceDown": false,
-      "Hands": false,
-      "CustomAssetbundle": {
-        "AssetbundleURL": "http://chry.me/tts/old_victorian_assets/victorian_chair_new.unity3d",
-        "AssetbundleSecondaryURL": "",
-        "MaterialIndex": 0,
-        "TypeIndex": 0,
-        "LoopingEffectIndex": 0
-      },
-      "LuaScript": "",
-      "LuaScriptState": "",
-      "XmlUI": ""
-    },
-    {
-      "GUID": "9c553c",
-      "Name": "Custom_Assetbundle",
-      "Transform": {
-        "posX": 17.4099064,
-        "posY": -30.3424072,
-        "posZ": -36.233654,
-        "rotX": -4.532135E-05,
-        "rotY": 344.9913,
-        "rotZ": 2.03944546E-05,
-        "scaleX": 20.0,
-        "scaleY": 20.0,
-        "scaleZ": 20.0
-      },
-      "Nickname": "",
-      "Description": "",
-      "GMNotes": "",
-      "AltLookAngle": {
-        "x": 0.0,
-        "y": 0.0,
-        "z": 0.0
-      },
-      "ColorDiffuse": {
-        "r": 1.0,
-        "g": 1.0,
-        "b": 1.0
-      },
-      "LayoutGroupSortIndex": 0,
-      "Value": 0,
-      "Locked": true,
-      "Grid": true,
-      "Snap": true,
-      "IgnoreFoW": false,
-      "MeasureMovement": false,
-      "DragSelectable": true,
-      "Autoraise": true,
-      "Sticky": true,
-      "Tooltip": true,
-      "GridProjection": false,
-      "HideWhenFaceDown": false,
-      "Hands": false,
-      "CustomAssetbundle": {
-        "AssetbundleURL": "http://chry.me/tts/old_victorian_assets/victorian_chair_new.unity3d",
-        "AssetbundleSecondaryURL": "",
-        "MaterialIndex": 0,
-        "TypeIndex": 0,
-        "LoopingEffectIndex": 0
-      },
+      "FogColor": "Blue",
       "LuaScript": "",
       "LuaScriptState": "",
       "XmlUI": ""
@@ -645,15 +502,109 @@
       "XmlUI": ""
     },
     {
+      "GUID": "c936de",
+      "Name": "HandTrigger",
+      "Transform": {
+        "posX": 30.1035728,
+        "posY": 4.81034231,
+        "posZ": -8.449126,
+        "rotX": 0.0,
+        "rotY": 270.0,
+        "rotZ": 0.0,
+        "scaleX": 11.6554184,
+        "scaleY": 9.174497,
+        "scaleZ": 4.91995144
+      },
+      "Nickname": "",
+      "Description": "",
+      "GMNotes": "",
+      "AltLookAngle": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "ColorDiffuse": {
+        "r": 0.96,
+        "g": 0.438999981,
+        "b": 0.807,
+        "a": 0.0
+      },
+      "LayoutGroupSortIndex": 0,
+      "Value": 0,
+      "Locked": true,
+      "Grid": false,
+      "Snap": true,
+      "IgnoreFoW": false,
+      "MeasureMovement": false,
+      "DragSelectable": true,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "GridProjection": false,
+      "HideWhenFaceDown": false,
+      "Hands": false,
+      "FogColor": "Pink",
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "XmlUI": ""
+    },
+    {
+      "GUID": "cbe595",
+      "Name": "HandTrigger",
+      "Transform": {
+        "posX": -30.247818,
+        "posY": 4.81034231,
+        "posZ": -8.822588,
+        "rotX": 0.0,
+        "rotY": 90.0,
+        "rotZ": 0.0,
+        "scaleX": 11.6554317,
+        "scaleY": 9.174497,
+        "scaleZ": 4.91995144
+      },
+      "Nickname": "",
+      "Description": "",
+      "GMNotes": "",
+      "AltLookAngle": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "ColorDiffuse": {
+        "r": 0.9559999,
+        "g": 0.39199996,
+        "b": 0.112999953,
+        "a": 0.0
+      },
+      "LayoutGroupSortIndex": 0,
+      "Value": 0,
+      "Locked": true,
+      "Grid": false,
+      "Snap": true,
+      "IgnoreFoW": false,
+      "MeasureMovement": false,
+      "DragSelectable": true,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "GridProjection": false,
+      "HideWhenFaceDown": false,
+      "Hands": false,
+      "FogColor": "Orange",
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "XmlUI": ""
+    },
+    {
       "GUID": "f65534",
       "Name": "Custom_Model_Infinite_Bag",
       "Transform": {
-        "posX": 7.55768,
-        "posY": 1.2079457,
-        "posZ": -16.2238541,
-        "rotX": -2.122036E-06,
-        "rotY": 180.000671,
-        "rotZ": -4.59018352E-08,
+        "posX": -26.7362041,
+        "posY": 2.58620381,
+        "posZ": 16.797493,
+        "rotX": 39.7988739,
+        "rotY": 179.991074,
+        "rotZ": -0.00458737742,
         "scaleX": 1.0,
         "scaleY": 1.0,
         "scaleZ": 1.0
@@ -674,8 +625,8 @@
       "LayoutGroupSortIndex": 0,
       "Value": 0,
       "Locked": true,
-      "Grid": true,
-      "Snap": true,
+      "Grid": false,
+      "Snap": false,
       "IgnoreFoW": false,
       "MeasureMovement": false,
       "DragSelectable": true,
@@ -788,12 +739,12 @@
       "GUID": "ec75a0",
       "Name": "Custom_Model_Infinite_Bag",
       "Transform": {
-        "posX": -7.12263632,
-        "posY": 1.20794737,
-        "posZ": -16.1773586,
-        "rotX": 7.478674E-07,
-        "rotY": 180.0,
-        "rotZ": -4.720555E-07,
+        "posX": -24.0314751,
+        "posY": 2.58157158,
+        "posZ": 16.7836781,
+        "rotX": 39.6370621,
+        "rotY": 179.992538,
+        "rotZ": -0.0037431072,
         "scaleX": 1.0,
         "scaleY": 1.0,
         "scaleZ": 1.0
@@ -928,12 +879,12 @@
       "GUID": "99184e",
       "Name": "Custom_Model_Infinite_Bag",
       "Transform": {
-        "posX": 1.02269268,
-        "posY": 1.20794678,
-        "posZ": -16.2688751,
-        "rotX": -1.6731874E-06,
-        "rotY": 179.996033,
-        "rotZ": 1.51462487E-07,
+        "posX": -21.3617954,
+        "posY": 2.5668807,
+        "posZ": 16.7392712,
+        "rotX": 39.1283569,
+        "rotY": 179.997589,
+        "rotZ": -0.0009265807,
         "scaleX": 1.0,
         "scaleY": 1.0,
         "scaleZ": 1.0
@@ -954,8 +905,8 @@
       "LayoutGroupSortIndex": 0,
       "Value": 0,
       "Locked": true,
-      "Grid": true,
-      "Snap": true,
+      "Grid": false,
+      "Snap": false,
       "IgnoreFoW": false,
       "MeasureMovement": false,
       "DragSelectable": true,
@@ -1068,12 +1019,12 @@
       "GUID": "07deff",
       "Name": "Custom_Model_Infinite_Bag",
       "Transform": {
-        "posX": -1.689821,
-        "posY": 1.2079457,
-        "posZ": -16.242054,
-        "rotX": 7.957517E-07,
-        "rotY": 180.0026,
-        "rotZ": -8.45640159E-07,
+        "posX": -18.7152863,
+        "posY": 2.56214237,
+        "posZ": 16.7231312,
+        "rotX": 38.9651947,
+        "rotY": 180.061447,
+        "rotZ": -0.005564596,
         "scaleX": 1.0,
         "scaleY": 1.0,
         "scaleZ": 1.0
@@ -1208,12 +1159,12 @@
       "GUID": "64a3cc",
       "Name": "Custom_Model_Infinite_Bag",
       "Transform": {
-        "posX": 3.68632412,
-        "posY": 1.20794785,
-        "posZ": -16.2698841,
-        "rotX": -5.85021837E-07,
-        "rotY": 179.999878,
-        "rotZ": -8.28848044E-07,
+        "posX": -13.4785881,
+        "posY": 2.55780053,
+        "posZ": 16.7112865,
+        "rotX": 38.8153419,
+        "rotY": 180.00589,
+        "rotZ": 0.004208232,
         "scaleX": 1.0,
         "scaleY": 1.0,
         "scaleZ": 1.0
@@ -1348,12 +1299,12 @@
       "GUID": "9d5b9a",
       "Name": "Custom_Model_Infinite_Bag",
       "Transform": {
-        "posX": -4.415172,
-        "posY": 1.20794559,
-        "posZ": -16.2164345,
-        "rotX": 3.4667832E-07,
-        "rotY": 179.999619,
-        "rotZ": -1.20538732E-06,
+        "posX": -16.1084843,
+        "posY": 2.55934882,
+        "posZ": 16.71229,
+        "rotX": 38.8692856,
+        "rotY": 180.178345,
+        "rotZ": 0.00527996151,
         "scaleX": 1.0,
         "scaleY": 1.0,
         "scaleZ": 1.0
@@ -1488,12 +1439,12 @@
       "GUID": "6ed442",
       "Name": "BlockSquare",
       "Transform": {
-        "posX": 14.6534348,
-        "posY": 1.10794687,
-        "posZ": -0.453120142,
-        "rotX": -1.036854E-06,
-        "rotY": 180.0,
-        "rotZ": 9.579638E-07,
+        "posX": -25.30338,
+        "posY": 1.06,
+        "posZ": 12.2542057,
+        "rotX": 7.97597352E-07,
+        "rotY": 179.962418,
+        "rotZ": 2.24156025E-07,
         "scaleX": 2.3,
         "scaleY": 0.2,
         "scaleZ": 3.2
@@ -1508,9 +1459,9 @@
         "z": 0.0
       },
       "ColorDiffuse": {
-        "r": 0.117600106,
-        "g": 0.117600106,
-        "b": 0.196033925
+        "r": 0.117600553,
+        "g": 0.117600553,
+        "b": 0.196034342
       },
       "LayoutGroupSortIndex": 0,
       "Value": 0,
@@ -1668,1037 +1619,6 @@
       "LuaScript": "",
       "LuaScriptState": "",
       "XmlUI": ""
-    },
-    {
-      "GUID": "b1f2c4",
-      "Name": "Custom_Model_Bag",
-      "Transform": {
-        "posX": 23.6700115,
-        "posY": -32.75243,
-        "posZ": 34.4527626,
-        "rotX": -1.05902327E-08,
-        "rotY": -9.874883E-10,
-        "rotZ": -1.0988132E-07,
-        "scaleX": 1.0,
-        "scaleY": 1.0,
-        "scaleZ": 1.0
-      },
-      "Nickname": "Avatar Pre-release Aang Booster (TLAPRW)",
-      "Description": "SET: TLAPRW\nReleased: 2021-04-23",
-      "GMNotes": "",
-      "AltLookAngle": {
-        "x": 0.0,
-        "y": 0.0,
-        "z": 0.0
-      },
-      "ColorDiffuse": {
-        "r": 1.0,
-        "g": 1.0,
-        "b": 1.0
-      },
-      "LayoutGroupSortIndex": 0,
-      "Value": 0,
-      "Locked": false,
-      "Grid": false,
-      "Snap": false,
-      "IgnoreFoW": false,
-      "MeasureMovement": false,
-      "DragSelectable": true,
-      "Autoraise": true,
-      "Sticky": true,
-      "Tooltip": true,
-      "GridProjection": false,
-      "HideWhenFaceDown": false,
-      "Hands": true,
-      "MaterialIndex": -1,
-      "MeshIndex": -1,
-      "CustomMesh": {
-        "MeshURL": "https://steamusercontent-a.akamaihd.net/ugc/9779110528988615269/E9A65CD25256BFDB28AE4140FCB1D27BC71A5A8D/",
-        "DiffuseURL": "https://cards.scryfall.io/normal/front/2/4/245e008c-e073-443f-9592-6f628c0026ec.jpg",
-        "NormalURL": "",
-        "ColliderURL": "",
-        "Convex": true,
-        "MaterialIndex": 3,
-        "TypeIndex": 6,
-        "CustomShader": {
-          "SpecularColor": {
-            "r": 1.0,
-            "g": 1.0,
-            "b": 1.0
-          },
-          "SpecularIntensity": 0.0,
-          "SpecularSharpness": 2.0,
-          "FresnelStrength": 0.0
-        },
-        "CastShadows": true
-      },
-      "Bag": {
-        "Order": 0
-      },
-      "LuaScript": "-- Any MTG Booster Generator by CoRNeRNoTe\n-- Most recent script can be found on GitHub:\n-- https://github.com/cornernote/tabletop_simulator-mtg_booster_generator/blob/main/lua/booster-generator.lua\nlocal defaultSetCode = \"???\"\nlocal defaultPack = \"https://steamusercontent-a.akamaihd.net/ugc/12555777445170015064/1F22F21DA19B1C5D668D761C2CA447889AE98A2A/\"\nfunction tryObjectEnter()\n    return false\nend\nfunction onObjectLeaveContainer(container)\n    if container ~= self then\n        return\n    end\n    Wait.condition(function()\n        Wait.time(function()\n            if container then\n                container.destruct()\n            end\n        end, 1)\n    end, function()\n        return container and container.getQuantity() == 0\n    end)\nend\nfunction onLoad()\n    local setCode = string.upper(self.getDescription()):match(\"SET:%s*(%S+)\") or self.getName():match(\"^(.-)%s+Booster$\")\n    if self.getCustomObject().diffuse == defaultPack then\n        self.createButton({\n            label = setCode and (setCode .. \" Booster\") or self.getName(),\n            click_function = 'noop',\n            function_owner = self,\n            position = { 0, 0.2, -1.6 },\n            rotation = { 0, 0, 0 },\n            width = 1000,\n            height = 200,\n            font_size = 150,\n            color = { 0, 0, 0, 95 },\n            hover_color = { 0, 0, 0, 95 },\n            press_color = { 0, 0, 0, 95 },\n            font_color = { 1, 1, 1, 95 },\n        })\n    end\n    if setCode ~= defaultSetCode and #self.getObjects() > 0 then\n        self.createButton({\n            label = \"Unpack\",\n            click_function = \"unpackDeck\",\n            function_owner = self,\n            position = { 0, 0.2, 0 },\n            rotation = { 0, 0, 0 },\n            width = 600,\n            height = 200,\n            font_size = 150,\n            color = { 0, 0, 0, 95 },\n            font_color = { 1, 1, 1, 95 },\n        })\n    end\nend\nfunction unpackDeck()\n    local contained = self.getObjects()\n    if #contained == 0 then\n        return\n    end\n    local entryGuid = contained[1].guid\n    local takePos = self.getPosition() + Vector(0, 6, 0)\n    local deck = self.takeObject({ guid = entryGuid, position = takePos, smooth = true })\n    if not deck then\n        return\n    end\n    deck.setLock(true)\n    deck.setScale({ 2, 1, 2 })\n    Wait.time(function()\n        spreadDeck(deck)\n    end, 0.1)\nend\nfunction spreadDeck(deck)\n    if not deck then\n        return\n    end\n    local startPos = self.getPosition() + Vector(-2.3 * 2, 2, 3.2)\n    local colCount = 5\n    local spacingX = 2.3\n    local spacingZ = 3.2\n    local total = 1\n    if deck.tag == \"Deck\" then\n        total = deck.getQuantity()\n    end\n    for index = 1, total do\n        Wait.time(function()\n            local row = math.floor((index - 1) / colCount)\n            local col = (index - 1) % colCount\n            local pos = startPos + Vector(col * spacingX, 2, -row * spacingZ)\n            if deck.tag == \"Deck\" then\n                local card = deck.takeObject({ position = pos, smooth = true })\n                Wait.time(function()\n                    card.setScale({ 1, 1, 1 })\n                end, 0.05)\n                if deck.remainder then\n                    deck = deck.remainder\n                    deck.setLock(true)\n                end\n            else\n                deck.setScale({ 1, 1, 1 })\n                deck.setLock(false)\n                deck.setPositionSmooth(pos, false, false)\n            end\n        end, index * 0.8)\n    end\n    self.destruct()\nend\nfunction noop()\nend\n",
-      "LuaScriptState": "",
-      "XmlUI": "",
-      "ContainedObjects": [
-        {
-          "GUID": "",
-          "Name": "Deck",
-          "Transform": {
-            "posX": 0.0,
-            "posY": 0.0,
-            "posZ": 0.0,
-            "rotX": 0.0,
-            "rotY": 180.0,
-            "rotZ": 0.0,
-            "scaleX": 1.0,
-            "scaleY": 1.0,
-            "scaleZ": 1.0
-          },
-          "Nickname": "TLAPRW Booster",
-          "Description": "",
-          "GMNotes": "",
-          "AltLookAngle": {
-            "x": 0.0,
-            "y": 0.0,
-            "z": 0.0
-          },
-          "LayoutGroupSortIndex": 0,
-          "Value": 0,
-          "Locked": false,
-          "Grid": true,
-          "Snap": true,
-          "IgnoreFoW": false,
-          "MeasureMovement": false,
-          "DragSelectable": true,
-          "Autoraise": true,
-          "Sticky": true,
-          "Tooltip": true,
-          "GridProjection": false,
-          "DeckIDs": [
-            100,
-            200,
-            300,
-            400,
-            500,
-            600,
-            700,
-            800,
-            900,
-            1000,
-            1100,
-            1200,
-            1300,
-            1400,
-            1500
-          ],
-          "CustomDeck": {
-            "1": {
-              "FaceURL": "https://cards.scryfall.io/large/front/2/4/245e008c-e073-443f-9592-6f628c0026ec.jpg",
-              "BackURL": "https://steamusercontent-a.akamaihd.net/ugc/1647720103762682461/35EF6E87970E2A5D6581E7D96A99F8A575B7A15F/",
-              "NumWidth": 1,
-              "NumHeight": 1,
-              "BackIsHidden": true,
-              "UniqueBack": false,
-              "Type": 0
-            },
-            "2": {
-              "FaceURL": "https://cards.scryfall.io/large/front/3/3/33b97433-e16c-422e-a0ca-f6b1e98d8681.jpg",
-              "BackURL": "https://steamusercontent-a.akamaihd.net/ugc/1647720103762682461/35EF6E87970E2A5D6581E7D96A99F8A575B7A15F/",
-              "NumWidth": 1,
-              "NumHeight": 1,
-              "BackIsHidden": true,
-              "UniqueBack": false,
-              "Type": 0
-            },
-            "3": {
-              "FaceURL": "https://cards.scryfall.io/large/front/9/a/9aef3ddb-9bb7-42c8-975b-b1917955a416.jpg",
-              "BackURL": "https://steamusercontent-a.akamaihd.net/ugc/1647720103762682461/35EF6E87970E2A5D6581E7D96A99F8A575B7A15F/",
-              "NumWidth": 1,
-              "NumHeight": 1,
-              "BackIsHidden": true,
-              "UniqueBack": false,
-              "Type": 0
-            },
-            "4": {
-              "FaceURL": "https://cards.scryfall.io/large/front/c/4/c472ef84-a632-4ad7-853c-60588a7a4b12.jpg",
-              "BackURL": "https://steamusercontent-a.akamaihd.net/ugc/1647720103762682461/35EF6E87970E2A5D6581E7D96A99F8A575B7A15F/",
-              "NumWidth": 1,
-              "NumHeight": 1,
-              "BackIsHidden": true,
-              "UniqueBack": false,
-              "Type": 0
-            },
-            "5": {
-              "FaceURL": "https://cards.scryfall.io/large/front/0/6/0613afb5-4cee-4132-8adf-404767ed8d07.jpg",
-              "BackURL": "https://steamusercontent-a.akamaihd.net/ugc/1647720103762682461/35EF6E87970E2A5D6581E7D96A99F8A575B7A15F/",
-              "NumWidth": 1,
-              "NumHeight": 1,
-              "BackIsHidden": true,
-              "UniqueBack": false,
-              "Type": 0
-            },
-            "6": {
-              "FaceURL": "https://cards.scryfall.io/large/front/b/3/b3bf4a25-4329-4318-870a-2b06aa620dc4.jpg",
-              "BackURL": "https://steamusercontent-a.akamaihd.net/ugc/1647720103762682461/35EF6E87970E2A5D6581E7D96A99F8A575B7A15F/",
-              "NumWidth": 1,
-              "NumHeight": 1,
-              "BackIsHidden": true,
-              "UniqueBack": false,
-              "Type": 0
-            },
-            "7": {
-              "FaceURL": "https://cards.scryfall.io/large/front/9/2/9202c044-15e4-4218-a94d-16287ba19d69.jpg",
-              "BackURL": "https://steamusercontent-a.akamaihd.net/ugc/1647720103762682461/35EF6E87970E2A5D6581E7D96A99F8A575B7A15F/",
-              "NumWidth": 1,
-              "NumHeight": 1,
-              "BackIsHidden": true,
-              "UniqueBack": false,
-              "Type": 0
-            },
-            "8": {
-              "FaceURL": "https://cards.scryfall.io/large/front/4/c/4c7e3e2f-d7ac-4d40-ab84-cb7efe06a316.jpg",
-              "BackURL": "https://steamusercontent-a.akamaihd.net/ugc/1647720103762682461/35EF6E87970E2A5D6581E7D96A99F8A575B7A15F/",
-              "NumWidth": 1,
-              "NumHeight": 1,
-              "BackIsHidden": true,
-              "UniqueBack": false,
-              "Type": 0
-            },
-            "9": {
-              "FaceURL": "https://cards.scryfall.io/large/front/6/b/6b7078e4-2892-4b5f-83ab-90369e0d6dba.jpg",
-              "BackURL": "https://steamusercontent-a.akamaihd.net/ugc/1647720103762682461/35EF6E87970E2A5D6581E7D96A99F8A575B7A15F/",
-              "NumWidth": 1,
-              "NumHeight": 1,
-              "BackIsHidden": true,
-              "UniqueBack": false,
-              "Type": 0
-            },
-            "10": {
-              "FaceURL": "https://cards.scryfall.io/large/front/4/3/43f4b10e-165b-4100-82f3-728e1b0c78ed.jpg",
-              "BackURL": "https://steamusercontent-a.akamaihd.net/ugc/1647720103762682461/35EF6E87970E2A5D6581E7D96A99F8A575B7A15F/",
-              "NumWidth": 1,
-              "NumHeight": 1,
-              "BackIsHidden": true,
-              "UniqueBack": false,
-              "Type": 0
-            },
-            "11": {
-              "FaceURL": "https://cards.scryfall.io/large/front/0/6/060966f9-5e56-4512-9ef3-2b216daf093c.jpg",
-              "BackURL": "https://steamusercontent-a.akamaihd.net/ugc/1647720103762682461/35EF6E87970E2A5D6581E7D96A99F8A575B7A15F/",
-              "NumWidth": 1,
-              "NumHeight": 1,
-              "BackIsHidden": true,
-              "UniqueBack": false,
-              "Type": 0
-            },
-            "12": {
-              "FaceURL": "https://cards.scryfall.io/large/front/7/2/7292e5f2-d5a1-4e39-8f75-eba471819f04.jpg",
-              "BackURL": "https://steamusercontent-a.akamaihd.net/ugc/1647720103762682461/35EF6E87970E2A5D6581E7D96A99F8A575B7A15F/",
-              "NumWidth": 1,
-              "NumHeight": 1,
-              "BackIsHidden": true,
-              "UniqueBack": false,
-              "Type": 0
-            },
-            "13": {
-              "FaceURL": "https://cards.scryfall.io/large/front/b/0/b05cfee5-ee59-4df6-a5f6-d9ef0fa7f98a.jpg",
-              "BackURL": "https://steamusercontent-a.akamaihd.net/ugc/1647720103762682461/35EF6E87970E2A5D6581E7D96A99F8A575B7A15F/",
-              "NumWidth": 1,
-              "NumHeight": 1,
-              "BackIsHidden": true,
-              "UniqueBack": false,
-              "Type": 0
-            },
-            "14": {
-              "FaceURL": "https://cards.scryfall.io/large/front/3/d/3da81dbd-dc80-47ff-a33b-270d23a24e0a.jpg",
-              "BackURL": "https://steamusercontent-a.akamaihd.net/ugc/1647720103762682461/35EF6E87970E2A5D6581E7D96A99F8A575B7A15F/",
-              "NumWidth": 1,
-              "NumHeight": 1,
-              "BackIsHidden": true,
-              "UniqueBack": false,
-              "Type": 0
-            },
-            "15": {
-              "FaceURL": "https://cards.scryfall.io/large/front/7/c/7cc29ddb-8f44-4493-985d-2fac35f9f34d.jpg",
-              "BackURL": "https://steamusercontent-a.akamaihd.net/ugc/1647720103762682461/35EF6E87970E2A5D6581E7D96A99F8A575B7A15F/",
-              "NumWidth": 1,
-              "NumHeight": 1,
-              "BackIsHidden": true,
-              "UniqueBack": false,
-              "Type": 0
-            }
-          },
-          "LuaScript": "",
-          "LuaScriptState": "",
-          "XmlUI": "",
-          "ContainedObjects": [
-            {
-              "GUID": "",
-              "Name": "Card",
-              "Transform": {
-                "posX": 0.0,
-                "posY": 0.0,
-                "posZ": 0.0,
-                "rotX": 0.0,
-                "rotY": 0.0,
-                "rotZ": 0.0,
-                "scaleX": 1.0,
-                "scaleY": 1.0,
-                "scaleZ": 1.0
-              },
-              "Nickname": "Aang, the Last Airbender\nLegendary Creature — Human Avatar Ally 4 CMC",
-              "Description": "Flying\nWhen Aang enters, airbend up to one other target nonland permanent. (Exile it. While it's exiled, its owner may cast it for {2} rather than its mana cost.)\nWhenever you cast a Lesson spell, Aang gains lifelink until end of turn.\n[b]3/2[b]",
-              "GMNotes": "",
-              "Memo": "70564c3a-858f-498e-8b92-acb3ca54ae7e",
-              "AltLookAngle": {
-                "x": 0.0,
-                "y": 0.0,
-                "z": 0.0
-              },
-              "LayoutGroupSortIndex": 0,
-              "Value": 0,
-              "Locked": false,
-              "Grid": true,
-              "Snap": true,
-              "IgnoreFoW": false,
-              "MeasureMovement": false,
-              "DragSelectable": true,
-              "Autoraise": true,
-              "Sticky": true,
-              "Tooltip": true,
-              "GridProjection": false,
-              "CardID": 100,
-              "CustomDeck": {
-                "1": {
-                  "FaceURL": "https://cards.scryfall.io/large/front/2/4/245e008c-e073-443f-9592-6f628c0026ec.jpg",
-                  "BackURL": "https://steamusercontent-a.akamaihd.net/ugc/1647720103762682461/35EF6E87970E2A5D6581E7D96A99F8A575B7A15F/",
-                  "NumWidth": 1,
-                  "NumHeight": 1,
-                  "BackIsHidden": true,
-                  "UniqueBack": false,
-                  "Type": 0
-                }
-              },
-              "LuaScript": "",
-              "LuaScriptState": "",
-              "XmlUI": ""
-            },
-            {
-              "GUID": "",
-              "Name": "Card",
-              "Transform": {
-                "posX": 0.0,
-                "posY": 0.0,
-                "posZ": 0.0,
-                "rotX": 0.0,
-                "rotY": 0.0,
-                "rotZ": 0.0,
-                "scaleX": 1.0,
-                "scaleY": 1.0,
-                "scaleZ": 1.0
-              },
-              "Nickname": "Suki, Courageous Rescuer\nLegendary Creature — Human Warrior Ally 3 CMC",
-              "Description": "Other creatures you control get +1/+0.\nWhenever another permanent you control leaves the battlefield during your turn, create a 1/1 white Ally creature token. This ability triggers only once each turn.\n[b]2/4[b]",
-              "GMNotes": "",
-              "Memo": "70ea1a9d-ec52-4c11-8c4d-0d957e5491ad",
-              "AltLookAngle": {
-                "x": 0.0,
-                "y": 0.0,
-                "z": 0.0
-              },
-              "LayoutGroupSortIndex": 0,
-              "Value": 0,
-              "Locked": false,
-              "Grid": true,
-              "Snap": true,
-              "IgnoreFoW": false,
-              "MeasureMovement": false,
-              "DragSelectable": true,
-              "Autoraise": true,
-              "Sticky": true,
-              "Tooltip": true,
-              "GridProjection": false,
-              "CardID": 200,
-              "CustomDeck": {
-                "2": {
-                  "FaceURL": "https://cards.scryfall.io/large/front/3/3/33b97433-e16c-422e-a0ca-f6b1e98d8681.jpg",
-                  "BackURL": "https://steamusercontent-a.akamaihd.net/ugc/1647720103762682461/35EF6E87970E2A5D6581E7D96A99F8A575B7A15F/",
-                  "NumWidth": 1,
-                  "NumHeight": 1,
-                  "BackIsHidden": true,
-                  "UniqueBack": false,
-                  "Type": 0
-                }
-              },
-              "LuaScript": "",
-              "LuaScriptState": "",
-              "XmlUI": ""
-            },
-            {
-              "GUID": "",
-              "Name": "Card",
-              "Transform": {
-                "posX": 0.0,
-                "posY": 0.0,
-                "posZ": 0.0,
-                "rotX": 0.0,
-                "rotY": 0.0,
-                "rotZ": 0.0,
-                "scaleX": 1.0,
-                "scaleY": 1.0,
-                "scaleZ": 1.0
-              },
-              "Nickname": "Hakoda, Selfless Commander\nLegendary Creature — Human Warrior Ally 4 CMC",
-              "Description": "Vigilance\nYou may look at the top card of your library any time.\nYou may cast Ally spells from the top of your library.\nSacrifice Hakoda: Creatures you control get +0/+5 and gain indestructible until end of turn.\n[b]3/5[b]",
-              "GMNotes": "",
-              "Memo": "de3a469a-e38b-456b-994d-abec1b010e42",
-              "AltLookAngle": {
-                "x": 0.0,
-                "y": 0.0,
-                "z": 0.0
-              },
-              "LayoutGroupSortIndex": 0,
-              "Value": 0,
-              "Locked": false,
-              "Grid": true,
-              "Snap": true,
-              "IgnoreFoW": false,
-              "MeasureMovement": false,
-              "DragSelectable": true,
-              "Autoraise": true,
-              "Sticky": true,
-              "Tooltip": true,
-              "GridProjection": false,
-              "CardID": 300,
-              "CustomDeck": {
-                "3": {
-                  "FaceURL": "https://cards.scryfall.io/large/front/9/a/9aef3ddb-9bb7-42c8-975b-b1917955a416.jpg",
-                  "BackURL": "https://steamusercontent-a.akamaihd.net/ugc/1647720103762682461/35EF6E87970E2A5D6581E7D96A99F8A575B7A15F/",
-                  "NumWidth": 1,
-                  "NumHeight": 1,
-                  "BackIsHidden": true,
-                  "UniqueBack": false,
-                  "Type": 0
-                }
-              },
-              "LuaScript": "",
-              "LuaScriptState": "",
-              "XmlUI": ""
-            },
-            {
-              "GUID": "",
-              "Name": "Card",
-              "Transform": {
-                "posX": 0.0,
-                "posY": 0.0,
-                "posZ": 0.0,
-                "rotX": 0.0,
-                "rotY": 0.0,
-                "rotZ": 0.0,
-                "scaleX": 1.0,
-                "scaleY": 1.0,
-                "scaleZ": 1.0
-              },
-              "Nickname": "Momo, Friendly Flier\nLegendary Creature — Lemur Bat Ally 1 CMC",
-              "Description": "Flying\nThe first non-Lemur creature spell with flying you cast during each of your turns costs {1} less to cast.\nWhenever another creature you control with flying enters, Momo gets +1/+1 until end of turn.\n[b]1/1[b]",
-              "GMNotes": "",
-              "Memo": "a3c56e71-0de6-447a-a9b4-0971f56c2362",
-              "AltLookAngle": {
-                "x": 0.0,
-                "y": 0.0,
-                "z": 0.0
-              },
-              "LayoutGroupSortIndex": 0,
-              "Value": 0,
-              "Locked": false,
-              "Grid": true,
-              "Snap": true,
-              "IgnoreFoW": false,
-              "MeasureMovement": false,
-              "DragSelectable": true,
-              "Autoraise": true,
-              "Sticky": true,
-              "Tooltip": true,
-              "GridProjection": false,
-              "CardID": 400,
-              "CustomDeck": {
-                "4": {
-                  "FaceURL": "https://cards.scryfall.io/large/front/c/4/c472ef84-a632-4ad7-853c-60588a7a4b12.jpg",
-                  "BackURL": "https://steamusercontent-a.akamaihd.net/ugc/1647720103762682461/35EF6E87970E2A5D6581E7D96A99F8A575B7A15F/",
-                  "NumWidth": 1,
-                  "NumHeight": 1,
-                  "BackIsHidden": true,
-                  "UniqueBack": false,
-                  "Type": 0
-                }
-              },
-              "LuaScript": "",
-              "LuaScriptState": "",
-              "XmlUI": ""
-            },
-            {
-              "GUID": "",
-              "Name": "Card",
-              "Transform": {
-                "posX": 0.0,
-                "posY": 0.0,
-                "posZ": 0.0,
-                "rotX": 0.0,
-                "rotY": 0.0,
-                "rotZ": 0.0,
-                "scaleX": 1.0,
-                "scaleY": 1.0,
-                "scaleZ": 1.0
-              },
-              "Nickname": "Glider Kids\nCreature — Human Pilot Ally 3 CMC",
-              "Description": "Flying\nWhen this creature enters, scry 1. (Look at the top card of your library. You may put it on the bottom.)\n[b]2/3[b]",
-              "GMNotes": "",
-              "Memo": "ff5ce28b-25be-4136-a7b2-8f25c08a6455",
-              "AltLookAngle": {
-                "x": 0.0,
-                "y": 0.0,
-                "z": 0.0
-              },
-              "LayoutGroupSortIndex": 0,
-              "Value": 0,
-              "Locked": false,
-              "Grid": true,
-              "Snap": true,
-              "IgnoreFoW": false,
-              "MeasureMovement": false,
-              "DragSelectable": true,
-              "Autoraise": true,
-              "Sticky": true,
-              "Tooltip": true,
-              "GridProjection": false,
-              "CardID": 500,
-              "CustomDeck": {
-                "5": {
-                  "FaceURL": "https://cards.scryfall.io/large/front/0/6/0613afb5-4cee-4132-8adf-404767ed8d07.jpg",
-                  "BackURL": "https://steamusercontent-a.akamaihd.net/ugc/1647720103762682461/35EF6E87970E2A5D6581E7D96A99F8A575B7A15F/",
-                  "NumWidth": 1,
-                  "NumHeight": 1,
-                  "BackIsHidden": true,
-                  "UniqueBack": false,
-                  "Type": 0
-                }
-              },
-              "LuaScript": "",
-              "LuaScriptState": "",
-              "XmlUI": ""
-            },
-            {
-              "GUID": "",
-              "Name": "Card",
-              "Transform": {
-                "posX": 0.0,
-                "posY": 0.0,
-                "posZ": 0.0,
-                "rotX": 0.0,
-                "rotY": 0.0,
-                "rotZ": 0.0,
-                "scaleX": 1.0,
-                "scaleY": 1.0,
-                "scaleZ": 1.0
-              },
-              "Nickname": "Sandbenders' Storm\nInstant 4 CMC",
-              "Description": "Choose one—\n• Destroy target creature with power 4 or greater.\n• Earthbend 3. (Target land you control becomes a 0/0 creature with haste that's still a land. Put three +1/+1 counters on it. When it dies or is exiled, return it to the battlefield tapped.)",
-              "GMNotes": "",
-              "Memo": "dfc8b8de-be1d-4f7f-bb21-4761a0e7db4e",
-              "AltLookAngle": {
-                "x": 0.0,
-                "y": 0.0,
-                "z": 0.0
-              },
-              "LayoutGroupSortIndex": 0,
-              "Value": 0,
-              "Locked": false,
-              "Grid": true,
-              "Snap": true,
-              "IgnoreFoW": false,
-              "MeasureMovement": false,
-              "DragSelectable": true,
-              "Autoraise": true,
-              "Sticky": true,
-              "Tooltip": true,
-              "GridProjection": false,
-              "CardID": 600,
-              "CustomDeck": {
-                "6": {
-                  "FaceURL": "https://cards.scryfall.io/large/front/b/3/b3bf4a25-4329-4318-870a-2b06aa620dc4.jpg",
-                  "BackURL": "https://steamusercontent-a.akamaihd.net/ugc/1647720103762682461/35EF6E87970E2A5D6581E7D96A99F8A575B7A15F/",
-                  "NumWidth": 1,
-                  "NumHeight": 1,
-                  "BackIsHidden": true,
-                  "UniqueBack": false,
-                  "Type": 0
-                }
-              },
-              "LuaScript": "",
-              "LuaScriptState": "",
-              "XmlUI": ""
-            },
-            {
-              "GUID": "",
-              "Name": "Card",
-              "Transform": {
-                "posX": 0.0,
-                "posY": 0.0,
-                "posZ": 0.0,
-                "rotX": 0.0,
-                "rotY": 0.0,
-                "rotZ": 0.0,
-                "scaleX": 1.0,
-                "scaleY": 1.0,
-                "scaleZ": 1.0
-              },
-              "Nickname": "Jet, Freedom Fighter\nLegendary Creature — Human Rebel Ally 5 CMC",
-              "Description": "When Jet enters, he deals damage equal to the number of creatures you control to target creature an opponent controls.\nWhen Jet dies, put a +1/+1 counter on each of up to two target creatures.\n[b]3/1[b]",
-              "GMNotes": "",
-              "Memo": "77cd2246-6906-4dce-8580-4c9d2e68c477",
-              "AltLookAngle": {
-                "x": 0.0,
-                "y": 0.0,
-                "z": 0.0
-              },
-              "LayoutGroupSortIndex": 0,
-              "Value": 0,
-              "Locked": false,
-              "Grid": true,
-              "Snap": true,
-              "IgnoreFoW": false,
-              "MeasureMovement": false,
-              "DragSelectable": true,
-              "Autoraise": true,
-              "Sticky": true,
-              "Tooltip": true,
-              "GridProjection": false,
-              "CardID": 700,
-              "CustomDeck": {
-                "7": {
-                  "FaceURL": "https://cards.scryfall.io/large/front/9/2/9202c044-15e4-4218-a94d-16287ba19d69.jpg",
-                  "BackURL": "https://steamusercontent-a.akamaihd.net/ugc/1647720103762682461/35EF6E87970E2A5D6581E7D96A99F8A575B7A15F/",
-                  "NumWidth": 1,
-                  "NumHeight": 1,
-                  "BackIsHidden": true,
-                  "UniqueBack": false,
-                  "Type": 0
-                }
-              },
-              "LuaScript": "",
-              "LuaScriptState": "",
-              "XmlUI": ""
-            },
-            {
-              "GUID": "",
-              "Name": "Card",
-              "Transform": {
-                "posX": 0.0,
-                "posY": 0.0,
-                "posZ": 0.0,
-                "rotX": 0.0,
-                "rotY": 0.0,
-                "rotZ": 0.0,
-                "scaleX": 1.0,
-                "scaleY": 1.0,
-                "scaleZ": 1.0
-              },
-              "Nickname": "White Lotus Reinforcements\nCreature — Human Soldier Ally 3 CMC",
-              "Description": "Vigilance\nOther Allies you control get +1/+1.\n[b]2/3[b]",
-              "GMNotes": "",
-              "Memo": "c55a4b25-ccc4-49de-9f98-a829c547a64d",
-              "AltLookAngle": {
-                "x": 0.0,
-                "y": 0.0,
-                "z": 0.0
-              },
-              "LayoutGroupSortIndex": 0,
-              "Value": 0,
-              "Locked": false,
-              "Grid": true,
-              "Snap": true,
-              "IgnoreFoW": false,
-              "MeasureMovement": false,
-              "DragSelectable": true,
-              "Autoraise": true,
-              "Sticky": true,
-              "Tooltip": true,
-              "GridProjection": false,
-              "CardID": 800,
-              "CustomDeck": {
-                "8": {
-                  "FaceURL": "https://cards.scryfall.io/large/front/4/c/4c7e3e2f-d7ac-4d40-ab84-cb7efe06a316.jpg",
-                  "BackURL": "https://steamusercontent-a.akamaihd.net/ugc/1647720103762682461/35EF6E87970E2A5D6581E7D96A99F8A575B7A15F/",
-                  "NumWidth": 1,
-                  "NumHeight": 1,
-                  "BackIsHidden": true,
-                  "UniqueBack": false,
-                  "Type": 0
-                }
-              },
-              "LuaScript": "",
-              "LuaScriptState": "",
-              "XmlUI": ""
-            },
-            {
-              "GUID": "",
-              "Name": "Card",
-              "Transform": {
-                "posX": 0.0,
-                "posY": 0.0,
-                "posZ": 0.0,
-                "rotX": 0.0,
-                "rotY": 0.0,
-                "rotZ": 0.0,
-                "scaleX": 1.0,
-                "scaleY": 1.0,
-                "scaleZ": 1.0
-              },
-              "Nickname": "Airbender's Reversal\nInstant — Lesson 2 CMC",
-              "Description": "Choose one —\n• Destroy target attacking creature.\n• Airbend target creature you control. (Exile it. While it's exiled, its owner may cast it for {2} rather than its mana cost.)",
-              "GMNotes": "",
-              "Memo": "64e3791b-de99-4eed-af49-cbec218c28aa",
-              "AltLookAngle": {
-                "x": 0.0,
-                "y": 0.0,
-                "z": 0.0
-              },
-              "LayoutGroupSortIndex": 0,
-              "Value": 0,
-              "Locked": false,
-              "Grid": true,
-              "Snap": true,
-              "IgnoreFoW": false,
-              "MeasureMovement": false,
-              "DragSelectable": true,
-              "Autoraise": true,
-              "Sticky": true,
-              "Tooltip": true,
-              "GridProjection": false,
-              "CardID": 900,
-              "CustomDeck": {
-                "9": {
-                  "FaceURL": "https://cards.scryfall.io/large/front/6/b/6b7078e4-2892-4b5f-83ab-90369e0d6dba.jpg",
-                  "BackURL": "https://steamusercontent-a.akamaihd.net/ugc/1647720103762682461/35EF6E87970E2A5D6581E7D96A99F8A575B7A15F/",
-                  "NumWidth": 1,
-                  "NumHeight": 1,
-                  "BackIsHidden": true,
-                  "UniqueBack": false,
-                  "Type": 0
-                }
-              },
-              "LuaScript": "",
-              "LuaScriptState": "",
-              "XmlUI": ""
-            },
-            {
-              "GUID": "",
-              "Name": "Card",
-              "Transform": {
-                "posX": 0.0,
-                "posY": 0.0,
-                "posZ": 0.0,
-                "rotX": 0.0,
-                "rotY": 0.0,
-                "rotZ": 0.0,
-                "scaleX": 1.0,
-                "scaleY": 1.0,
-                "scaleZ": 1.0
-              },
-              "Nickname": "Yip Yip!\nInstant — Lesson 1 CMC",
-              "Description": "Target creature you control gets +2/+2 until end of turn. If that creature is an Ally, it also gains flying until end of turn.",
-              "GMNotes": "",
-              "Memo": "5453550f-9136-4568-baf8-c3d20e33fbb6",
-              "AltLookAngle": {
-                "x": 0.0,
-                "y": 0.0,
-                "z": 0.0
-              },
-              "LayoutGroupSortIndex": 0,
-              "Value": 0,
-              "Locked": false,
-              "Grid": true,
-              "Snap": true,
-              "IgnoreFoW": false,
-              "MeasureMovement": false,
-              "DragSelectable": true,
-              "Autoraise": true,
-              "Sticky": true,
-              "Tooltip": true,
-              "GridProjection": false,
-              "CardID": 1000,
-              "CustomDeck": {
-                "10": {
-                  "FaceURL": "https://cards.scryfall.io/large/front/4/3/43f4b10e-165b-4100-82f3-728e1b0c78ed.jpg",
-                  "BackURL": "https://steamusercontent-a.akamaihd.net/ugc/1647720103762682461/35EF6E87970E2A5D6581E7D96A99F8A575B7A15F/",
-                  "NumWidth": 1,
-                  "NumHeight": 1,
-                  "BackIsHidden": true,
-                  "UniqueBack": false,
-                  "Type": 0
-                }
-              },
-              "LuaScript": "",
-              "LuaScriptState": "",
-              "XmlUI": ""
-            },
-            {
-              "GUID": "",
-              "Name": "Card",
-              "Transform": {
-                "posX": 0.0,
-                "posY": 0.0,
-                "posZ": 0.0,
-                "rotX": 0.0,
-                "rotY": 0.0,
-                "rotZ": 0.0,
-                "scaleX": 1.0,
-                "scaleY": 1.0,
-                "scaleZ": 1.0
-              },
-              "Nickname": "Jeong Jeong's Deserters\nCreature — Human Rebel Ally 2 CMC",
-              "Description": "When this creature enters, put a +1/+1 counter on target creature.\n[b]1/2[b]",
-              "GMNotes": "",
-              "Memo": "6a06d281-3ca2-498f-91d0-e13e7b0869f9",
-              "AltLookAngle": {
-                "x": 0.0,
-                "y": 0.0,
-                "z": 0.0
-              },
-              "LayoutGroupSortIndex": 0,
-              "Value": 0,
-              "Locked": false,
-              "Grid": true,
-              "Snap": true,
-              "IgnoreFoW": false,
-              "MeasureMovement": false,
-              "DragSelectable": true,
-              "Autoraise": true,
-              "Sticky": true,
-              "Tooltip": true,
-              "GridProjection": false,
-              "CardID": 1100,
-              "CustomDeck": {
-                "11": {
-                  "FaceURL": "https://cards.scryfall.io/large/front/0/6/060966f9-5e56-4512-9ef3-2b216daf093c.jpg",
-                  "BackURL": "https://steamusercontent-a.akamaihd.net/ugc/1647720103762682461/35EF6E87970E2A5D6581E7D96A99F8A575B7A15F/",
-                  "NumWidth": 1,
-                  "NumHeight": 1,
-                  "BackIsHidden": true,
-                  "UniqueBack": false,
-                  "Type": 0
-                }
-              },
-              "LuaScript": "",
-              "LuaScriptState": "",
-              "XmlUI": ""
-            },
-            {
-              "GUID": "",
-              "Name": "Card",
-              "Transform": {
-                "posX": 0.0,
-                "posY": 0.0,
-                "posZ": 0.0,
-                "rotX": 0.0,
-                "rotY": 0.0,
-                "rotZ": 0.0,
-                "scaleX": 1.0,
-                "scaleY": 1.0,
-                "scaleZ": 1.0
-              },
-              "Nickname": "Avatar Enthusiasts\nCreature — Human Peasant Ally 3 CMC",
-              "Description": "Whenever another Ally you control enters, put a +1/+1 counter on this creature.\n[b]2/2[b]",
-              "GMNotes": "",
-              "Memo": "7b0d9d79-2e86-4079-8db3-500483c8807e",
-              "AltLookAngle": {
-                "x": 0.0,
-                "y": 0.0,
-                "z": 0.0
-              },
-              "LayoutGroupSortIndex": 0,
-              "Value": 0,
-              "Locked": false,
-              "Grid": true,
-              "Snap": true,
-              "IgnoreFoW": false,
-              "MeasureMovement": false,
-              "DragSelectable": true,
-              "Autoraise": true,
-              "Sticky": true,
-              "Tooltip": true,
-              "GridProjection": false,
-              "CardID": 1200,
-              "CustomDeck": {
-                "12": {
-                  "FaceURL": "https://cards.scryfall.io/large/front/7/2/7292e5f2-d5a1-4e39-8f75-eba471819f04.jpg",
-                  "BackURL": "https://steamusercontent-a.akamaihd.net/ugc/1647720103762682461/35EF6E87970E2A5D6581E7D96A99F8A575B7A15F/",
-                  "NumWidth": 1,
-                  "NumHeight": 1,
-                  "BackIsHidden": true,
-                  "UniqueBack": false,
-                  "Type": 0
-                }
-              },
-              "LuaScript": "",
-              "LuaScriptState": "",
-              "XmlUI": ""
-            },
-            {
-              "GUID": "",
-              "Name": "Card",
-              "Transform": {
-                "posX": 0.0,
-                "posY": 0.0,
-                "posZ": 0.0,
-                "rotX": 0.0,
-                "rotY": 0.0,
-                "rotZ": 0.0,
-                "scaleX": 1.0,
-                "scaleY": 1.0,
-                "scaleZ": 1.0
-              },
-              "Nickname": "Razor Rings\nInstant 2 CMC",
-              "Description": "Razor Rings deals 4 damage to target attacking or blocking creature. You gain life equal to the excess damage dealt this way.",
-              "GMNotes": "",
-              "Memo": "eb5afbd7-4d21-4449-9204-eeb4ebf6a72a",
-              "AltLookAngle": {
-                "x": 0.0,
-                "y": 0.0,
-                "z": 0.0
-              },
-              "LayoutGroupSortIndex": 0,
-              "Value": 0,
-              "Locked": false,
-              "Grid": true,
-              "Snap": true,
-              "IgnoreFoW": false,
-              "MeasureMovement": false,
-              "DragSelectable": true,
-              "Autoraise": true,
-              "Sticky": true,
-              "Tooltip": true,
-              "GridProjection": false,
-              "CardID": 1300,
-              "CustomDeck": {
-                "13": {
-                  "FaceURL": "https://cards.scryfall.io/large/front/b/0/b05cfee5-ee59-4df6-a5f6-d9ef0fa7f98a.jpg",
-                  "BackURL": "https://steamusercontent-a.akamaihd.net/ugc/1647720103762682461/35EF6E87970E2A5D6581E7D96A99F8A575B7A15F/",
-                  "NumWidth": 1,
-                  "NumHeight": 1,
-                  "BackIsHidden": true,
-                  "UniqueBack": false,
-                  "Type": 0
-                }
-              },
-              "LuaScript": "",
-              "LuaScriptState": "",
-              "XmlUI": ""
-            },
-            {
-              "GUID": "",
-              "Name": "Card",
-              "Transform": {
-                "posX": 0.0,
-                "posY": 0.0,
-                "posZ": 0.0,
-                "rotX": 0.0,
-                "rotY": 0.0,
-                "rotZ": 0.0,
-                "scaleX": 1.0,
-                "scaleY": 1.0,
-                "scaleZ": 1.0
-              },
-              "Nickname": "Wandering Musicians\nCreature — Human Bard Ally 4 CMC",
-              "Description": "Whenever this creature attacks, creatures you control get +1/+0 until end of turn.\n[b]2/5[b]",
-              "GMNotes": "",
-              "Memo": "7166bf81-05c2-457d-a0bb-a175175b8e79",
-              "AltLookAngle": {
-                "x": 0.0,
-                "y": 0.0,
-                "z": 0.0
-              },
-              "LayoutGroupSortIndex": 0,
-              "Value": 0,
-              "Locked": false,
-              "Grid": true,
-              "Snap": true,
-              "IgnoreFoW": false,
-              "MeasureMovement": false,
-              "DragSelectable": true,
-              "Autoraise": true,
-              "Sticky": true,
-              "Tooltip": true,
-              "GridProjection": false,
-              "CardID": 1400,
-              "CustomDeck": {
-                "14": {
-                  "FaceURL": "https://cards.scryfall.io/large/front/3/d/3da81dbd-dc80-47ff-a33b-270d23a24e0a.jpg",
-                  "BackURL": "https://steamusercontent-a.akamaihd.net/ugc/1647720103762682461/35EF6E87970E2A5D6581E7D96A99F8A575B7A15F/",
-                  "NumWidth": 1,
-                  "NumHeight": 1,
-                  "BackIsHidden": true,
-                  "UniqueBack": false,
-                  "Type": 0
-                }
-              },
-              "LuaScript": "",
-              "LuaScriptState": "",
-              "XmlUI": ""
-            },
-            {
-              "GUID": "",
-              "Name": "Card",
-              "Transform": {
-                "posX": 0.0,
-                "posY": 0.0,
-                "posZ": 0.0,
-                "rotX": 0.0,
-                "rotY": 0.0,
-                "rotZ": 0.0,
-                "scaleX": 1.0,
-                "scaleY": 1.0,
-                "scaleZ": 1.0
-              },
-              "Nickname": "Misty Palms Oasis\nLand 0 CMC",
-              "Description": "This land enters tapped.\n{T}: Add {W} or {B}.\n{4}, {T}, Sacrifice this land: Draw a card.",
-              "GMNotes": "",
-              "Memo": "dfd2c57a-4557-4df1-8f6f-da2cbd317f12",
-              "AltLookAngle": {
-                "x": 0.0,
-                "y": 0.0,
-                "z": 0.0
-              },
-              "LayoutGroupSortIndex": 0,
-              "Value": 0,
-              "Locked": false,
-              "Grid": true,
-              "Snap": true,
-              "IgnoreFoW": false,
-              "MeasureMovement": false,
-              "DragSelectable": true,
-              "Autoraise": true,
-              "Sticky": true,
-              "Tooltip": true,
-              "GridProjection": false,
-              "CardID": 1500,
-              "CustomDeck": {
-                "15": {
-                  "FaceURL": "https://cards.scryfall.io/large/front/7/c/7cc29ddb-8f44-4493-985d-2fac35f9f34d.jpg",
-                  "BackURL": "https://steamusercontent-a.akamaihd.net/ugc/1647720103762682461/35EF6E87970E2A5D6581E7D96A99F8A575B7A15F/",
-                  "NumWidth": 1,
-                  "NumHeight": 1,
-                  "BackIsHidden": true,
-                  "UniqueBack": false,
-                  "Type": 0
-                }
-              },
-              "LuaScript": "",
-              "LuaScriptState": "",
-              "XmlUI": ""
-            }
-          ]
-        }
-      ]
     }
   ]
 }
