@@ -1,7 +1,7 @@
 {
   "SaveName": "Avatar",
-  "EpochTime": 1763257649,
-  "Date": "11/15/2025 6:47:29 PM",
+  "EpochTime": 1763258346,
+  "Date": "11/15/2025 6:59:06 PM",
   "VersionNumber": "v13.3",
   "GameMode": "victorian_assets",
   "GameType": "",
@@ -24,16 +24,16 @@
       },
       "id": 0
     },
-    "1": {
+    "12": {
       "title": "White",
-      "body": "",
+      "body": "1 Zuko, Exiled Prince\n1 Firebending Student\n1 Sokka, Bold Boomeranger\n1 Wartime Protestors\n1 Bumi Bash\n1 Fire Nation Cadets\n1 Jeong Jeong, the Deserter\n1 Uncle Iroh\n1 Bitter Work\n1 Rough Rhino Cavalry\n1 How to Start a Riot\n1 Treetop Freedom Fighters\n1 Mongoose Lizard\n1 Vindictive Warden\n1 Sun-Blessed Peak\n1 Katara, Water Tribe's Hope\n1 Glider Staff\n1 Zhao, the Moon Slayer\n1 Pillar Launch\n1 Master Piandao\n1 Azula, On the Hunt\n1 Bitter Work\n1 Rowdy Snowballers\n1 Earth Village Ruffians\n1 Rough Rhino Cavalry\n1 Messenger Hawk\n1 Octopus Form\n1 Kyoshi Warriors\n1 Forest\n1 Ozai, the Phoenix King\n1 Earthbender Ascension\n1 Earth Kingdom General\n1 Mongoose Lizard\n1 Southern Air Temple\n1 Trusty Boomerang\n1 Jet's Brainwashing\n1 Sold Out\n1 Turtle-Duck\n1 Deserter's Disciple\n1 Foggy Swamp Hunters\n1 Otter-Penguin\n1 Razor Rings\n1 Plains\n1 Fire Lord Zuko\n1 Jeong Jeong, the Deserter\n1 Gather the White Lotus\n1 Saber-Tooth Moose-Lion\n1 Unlucky Cabbage Merchant\n1 White Lotus Reinforcements\n1 Crescent Island Temple\n1 Boar-q-pine\n1 Badgermole\n1 Treetop Freedom Fighters\n1 Hog-Monkey\n1 Lost Days\n1 Airbending Lesson\n1 Forest\n1 The Rise of Sozin\n1 Vengeful Villagers\n1 Octopus Form\n1 First-Time Flyer\n1 Fire Sages\n1 Toph, the Blind Bandit\n1 Suki, Kyoshi Warrior\n1 Kyoshi Village\n1 Ostrich-Horse\n1 Treetop Freedom Fighters\n1 Hog-Monkey\n1 Lost Days\n1 Sandbenders' Storm\n1 Plains\n1 Firebending Student\n1 Combustion Man\n1 Wandering Musicians\n1 Walltop Sentries\n1 White Lotus Hideout\n1 Appa, Loyal Sky Bison\n1 Twin Blades\n1 Flexible Waterbender\n1 Earth Village Ruffians\n1 Abandon Attachments\n1 Swampsnare Trap\n1 Waterbending Lesson\n1 Cat-Owl\n1 Plains\n",
       "color": "White",
       "visibleColor": {
         "r": 1.0,
         "g": 1.0,
         "b": 1.0
       },
-      "id": 1
+      "id": 12
     },
     "2": {
       "title": "Brown",
@@ -1251,7 +1251,7 @@
       },
       "Nickname": "Deck Lister",
       "Description": "[b]Instructions to re-import your deck:[/b]\n1. Place your deck here\n2. Press the button below\n3. Type [b]scryfall deck[/b] into chat and the deck will spawn at your mouse cursor",
-      "GMNotes": "b634f2",
+      "GMNotes": "",
       "Memo": "",
       "AltLookAngle": {
         "x": 0.0,
@@ -2129,6 +2129,51 @@
           "XmlUI": ""
         }
       ]
+    },
+    {
+      "GUID": "a88615",
+      "Name": "Notecard",
+      "Transform": {
+        "posX": -15.403614,
+        "posY": 1.07794583,
+        "posZ": -9.055543,
+        "rotX": -9.725176E-07,
+        "rotY": 4.216698E-06,
+        "rotZ": 6.814798E-07,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "Nickname": "Quick Start",
+      "Description": "Open 1 Character Pack\nOpen 5 Avatar Playboosters\nPlace Deck on Lister\nPress Get Card List\nOpen Notebook\n",
+      "GMNotes": "",
+      "AltLookAngle": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "ColorDiffuse": {
+        "r": 1.0,
+        "g": 1.0,
+        "b": 1.0
+      },
+      "LayoutGroupSortIndex": 0,
+      "Value": 0,
+      "Locked": true,
+      "Grid": true,
+      "Snap": true,
+      "IgnoreFoW": false,
+      "MeasureMovement": false,
+      "DragSelectable": true,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "GridProjection": false,
+      "HideWhenFaceDown": false,
+      "Hands": false,
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "XmlUI": ""
     }
   ]
 }
