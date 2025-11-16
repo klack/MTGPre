@@ -1,7 +1,7 @@
 {
   "SaveName": "Avatar",
-  "EpochTime": 1763257370,
-  "Date": "11/15/2025 6:42:50 PM",
+  "EpochTime": 1763257649,
+  "Date": "11/15/2025 6:47:29 PM",
   "VersionNumber": "v13.3",
   "GameMode": "victorian_assets",
   "GameType": "",
@@ -168,32 +168,33 @@
     }
   },
   "Lighting": {
-    "LightIntensity": 0.54,
+    "LightIntensity": 0.0,
     "LightColor": {
       "r": 1.0,
       "g": 0.9804,
       "b": 0.8902
     },
-    "AmbientIntensity": 1.3,
-    "AmbientType": 0,
+    "AmbientIntensity": 0.998399258,
+    "AmbientType": 1,
     "AmbientSkyColor": {
-      "r": 0.5,
-      "g": 0.5,
-      "b": 0.5
+      "r": 0.0,
+      "g": 0.0,
+      "b": 0.0
     },
     "AmbientEquatorColor": {
-      "r": 0.5,
-      "g": 0.5,
-      "b": 0.5
+      "r": 1.0,
+      "g": 1.0,
+      "b": 1.0
     },
     "AmbientGroundColor": {
-      "r": 0.5,
-      "g": 0.5,
-      "b": 0.5
+      "r": 1.0,
+      "g": 1.0,
+      "b": 1.0
     },
     "ReflectionIntensity": 1.0,
     "LutIndex": 0,
-    "LutContribution": 1.0
+    "LutContribution": 1.0,
+    "LutURL": ""
   },
   "Hands": {
     "Enable": true,
