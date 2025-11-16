@@ -1,37 +1,76 @@
-﻿
-# Development Environment
-### Clone project
-* Install git and git bash
-* Open git bash
-* Navigate to the directory that will hold your project files
-* `git clone https://github.com/klack/MTGPre.git`
-* `cd MTGPre`
-* `git submodule update --init --recursive`
+﻿# Development Environment <!-- GitHub-optimized formatting -->
 
-### Create a symlink from the Tabletop save game folder to the project table folder
-* Open Windows Command Prompt in Administrator Mode
-* Update the path below with your own and run
-* `mklink /D "C:\Users\USERNAME\Documents\My Games\Tabletop Simulator\Saves\MTGPre" "C:\projects\MTGPre\tables"`
+## 🚀 Clone Project
 
-### Code Editor
-* Install VSCode
-* Install the Tabletop Simulator Lua plugin for VSCode
-* It needs a manual fix applied to it
-* Update the path below with your own
-* Edit `C:\Users\USERNAME\.vscode\extensions\rolandostar.tabletopsimulator-lua-1.1.3\dist`
-* On line 9406, `change node_modules.asar` to `node_modules`
-* Restart VSCode
-* Press Ctrl+Shift+P
-* Search for "TTSLua: Install Console++" and click on it
+1. **Install Git** and **Git Bash**.
+2. Open **Git Bash**.
+3. Navigate to the directory where you want your project files.
+4. Run the following commands:
 
-### Plugin Usage
-* Ctrl+Alt+` - Open TTS Console++
-* Ctrl+Alt+L - Get Lua Scripts
-* Ctrl+Alt+S - Save And Play
+   ```bash
+   git clone https://github.com/klack/MTGPre.git
+   cd MTGPre
+   git submodule update --init --recursive
+   ```
+
 ---
-### Console++ integration (per save file)
-* Add to Global.lua
-```
+
+## 🔗 Create a Symlink to Tabletop Simulator Saves
+
+1. Open **Windows Command Prompt (Admin Mode)**.
+2. Update the paths below with your own.
+3. Run:
+
+   ```cmd
+   mklink /D "C:\Users\USERNAME\Documents\My Games\Tabletop Simulator\Saves\MTGPre" "C:\projects\MTGPre\tables"
+   ```
+
+---
+
+## 🧰 Code Editor Setup
+
+### Install & Configure VSCode
+
+1. Install **Visual Studio Code**.
+2. Install the **Tabletop Simulator Lua** extension.
+3. Apply this required manual fix:
+
+   * Edit the extension folder:
+
+     ```
+     C:\Users\USERNAME\.vscode\extensions\rolandostar.tabletopsimulator-lua-1.1.3\dist
+     ```
+   * Go to **line 9406**.
+   * Replace:
+
+     ```
+     node_modules.asar
+     ```
+
+     with:
+
+     ```
+     node_modules
+     ```
+4. Restart VSCode.
+5. Press **Ctrl + Shift + P**.
+6. Search for **"TTSLua: Install Console++"** and run it.
+
+---
+
+## 🎮 Plugin Usage
+
+* **Ctrl + Alt + `** → Open TTS Console++
+* **Ctrl + Alt + L** → Get Lua Scripts
+* **Ctrl + Alt + S** → Save and Play
+
+---
+
+## 🧩 Console++ Integration (Per Save File)
+
+Add the following to **Global.lua**:
+
+```lua
 require("vscode/console")
 
 function onExternalCommand(input)
