@@ -1,3 +1,6 @@
 [submodule "submodules/mtg_booster_generator"]
 	path = submodules/mtg_booster_generator
 	url = https://github.com/klack/tabletop_simulator-mtg_booster_generator
+[submodule "submodules/TTS-MTG-Modules"]
+	path = submodules/TTS-MTG-Modules
+	url = https://github.com/klack/TTS-MTG-Modules
